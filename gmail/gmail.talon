@@ -40,6 +40,7 @@ mail reply : key(r)
 mail reply all : key(a)
 mail forward : key(f)
 mail hit sent : key(ctrl-enter)
+draft delete : key(ctrl-shift-d)
 
 # organize
 delete : key(#)
