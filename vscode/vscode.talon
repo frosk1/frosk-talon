@@ -23,6 +23,7 @@ dock (pace | paste):
 dock search: user.vscode("workbench.view.search")
 
 source: user.vscode("workbench.view.scm")
+source graph: user.vscode("git-graph.view")
 editor: user.vscode("workbench.action.focusActiveEditorGroup")
 go tab <number> : key("ctrl-{number}")
 last: user.vscode("workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup")
@@ -35,3 +36,5 @@ new file: user.vscode("explorer.newFile")
 
 projects: user.vscode("workbench.action.switchWindow")
 recent: user.vscode("workbench.action.openRecent")
+
+comment line: user.vscode("editor.action.commentLine")
