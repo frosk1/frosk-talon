@@ -1,3 +1,23 @@
+"""
+
+FOR WINDOWS change the following!!!!
+
+setting_scroll_speed = mod.setting(
+    "scroll_speed",
+    type=float,
+    default=1,
+    desc="Base scroll speed",
+)
+
+
+scroll_speed_dynamic = 0.4
+
+
+scroll_job = cron.interval("60ms", scroll_continuous_helper)
+
+
+
+"""
 from talon import Module, actions, app, ui, cron
 import time
 import copy
