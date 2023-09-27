@@ -2,6 +2,10 @@ app: vscode
 -
 close: user.vscode("workbench.action.closeActiveEditor")
 exit: user.vscode("workbench.action.closeWindow")
+
+code run: user.vscode("workbench.action.debug.run")
+code debug: user.vscode("workbench.action.debug.start")
+
 run python : key(shift-f10)
 debug python : key(shift-f9)
 debug exit : key(shift-f5)
@@ -21,6 +25,7 @@ dock (pace | paste):
     edit.paste()
 
 dock search: user.vscode("workbench.view.search")
+file search: user.vscode("workbench.action.findInFiles")
 
 source: user.vscode("workbench.view.scm")
 source graph: user.vscode("git-graph.view")
@@ -38,3 +43,4 @@ projects: user.vscode("workbench.action.switchWindow")
 recent: user.vscode("workbench.action.openRecent")
 
 comment line: user.vscode("editor.action.commentLine")
+settings: user.vscode("workbench.action.openGlobalSettings")
