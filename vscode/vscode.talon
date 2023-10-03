@@ -6,8 +6,8 @@ exit: user.vscode("workbench.action.closeWindow")
 code run: user.vscode("workbench.action.debug.run")
 code debug: user.vscode("workbench.action.debug.start")
 
-run python : key(shift-f10)
-debug python : key(shift-f9)
+run it : key(shift-f10)
+debug it : key(shift-f9)
 debug exit : key(shift-f5)
 breakpoint: user.vscode("editor.debug.action.toggleBreakpoint")
 
