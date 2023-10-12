@@ -8,3 +8,7 @@ nope : edit.undo()
 
 up: edit.up()
 down: edit.down()
+
+new equals: " = "
+
+crunch: edit.delete_line()
