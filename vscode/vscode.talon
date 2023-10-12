@@ -9,7 +9,7 @@ debug python: user.vscode("python.debugInTerminal")
 
 run it: user.vscode("workbench.action.debug.run")
 debug it: user.vscode("workbench.action.debug.start")
-debug close : key(shift-f5)
+debug close : user.vscode("workbench.action.debug.disconnect")
 debug restart: user.vscode("workbench.action.debug.restart")
 breakpoint: user.vscode("editor.debug.action.toggleBreakpoint")
 
