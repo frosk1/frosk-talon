@@ -12,3 +12,10 @@ down: edit.down()
 new equals: " = "
 
 crunch: edit.delete_line()
+jason: "json"
+ending jason: ".json"
+ending text: ".txt"
+ending pickle: ".pkl"
+ending comma: ".csv"
+ending excel: ".xlsx"
+ending python: ".py"
