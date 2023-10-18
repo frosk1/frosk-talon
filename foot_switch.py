@@ -1,7 +1,7 @@
 from talon import Module, Context, actions, cron
 import time
 
-HOLD_TIMEOUT = 0.2
+HOLD_TIMEOUT = 0.001
 
 LEFT = 0
 CENTER = 1

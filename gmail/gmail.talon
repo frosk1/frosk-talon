@@ -44,6 +44,6 @@ draft delete : key(ctrl-shift-d)
 
 # organize
 delete : key(#)
-archive : key(e)
+tuck : key(e)
 
 
