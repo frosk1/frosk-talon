@@ -14,6 +14,9 @@ up: edit.up()
 down: edit.down()
 
 new equals: " = "
+greater: key(>)
+smaller: key(<)
+under: key(_)
 
 crunch: edit.delete_line()
 jason: "json"
@@ -24,3 +27,5 @@ ending comma: ".csv"
 ending excel: ".xlsx"
 ending parquet: ".parquet"
 ending python: ".py"
+
+hack: user.rango_command_without_target("toggleHints")
