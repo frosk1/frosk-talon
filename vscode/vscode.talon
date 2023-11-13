@@ -3,6 +3,9 @@ app: vscode
 tag(): terminal
 tag(): user.generic_unix_shell
 
+pip install: "pip install "
+pip install requirements: "pip install -r requirements.txt"
+
 shell clear: user.terminal_clear_screen()
 
 close: user.vscode("workbench.action.closeActiveEditor")
@@ -34,7 +37,7 @@ shell <number_small>: user.vscode_terminal(number_small)
 make dir:
     insert("mkdir ")
 
-
+open folder:user.vscode("workbench.action.files.openFolder")
 files: user.vscode("workbench.explorer.fileView.focus")
 debug: user.vscode("workbench.debug.action.focusBreakpointsView")
 

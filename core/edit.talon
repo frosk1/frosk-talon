@@ -9,7 +9,9 @@ go line start | pop: edit.line_start()
 go line end | push: edit.line_end()
 
 nope : edit.undo()
-
+slap double: 
+    edit.line_insert_down()
+    edit.line_insert_down()
 up: edit.up()
 down: edit.down()
 
@@ -20,6 +22,7 @@ under: key(_)
 
 crunch: edit.delete_line()
 jason: "json"
+hay start: "Hey "
 ending jason: ".json"
 ending text: ".txt"
 ending pickle: ".pkl"
