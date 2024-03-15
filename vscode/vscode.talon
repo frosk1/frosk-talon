@@ -20,6 +20,8 @@ debug off: user.vscode("workbench.action.debug.disconnect")
 debug restart: user.vscode("workbench.action.debug.restart")
 breakpoint: user.vscode("editor.debug.action.toggleBreakpoint")
 
+run build: user.vscode("workbench.action.tasks.build")
+
 next point: user.vscode("workbench.action.debug.continue")
 next: user.vscode("workbench.action.debug.stepOver")
 

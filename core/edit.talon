@@ -32,3 +32,13 @@ ending parquet: ".parquet"
 ending python: ".py"
 
 hack: user.rango_command_without_target("toggleHints")
+
+bullet <number>:
+    edit.line_insert_down()
+    edit.line_start()
+    insert("    {number}. ")
+
+bullet minus:
+    edit.line_insert_down()
+    edit.line_start()
+    insert("    - ")
