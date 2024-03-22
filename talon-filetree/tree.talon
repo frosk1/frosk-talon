@@ -10,7 +10,7 @@ tree parent <user.letters>:
     user.run_rpc_command("talon-filetree.closeParent", letters)
 tree <user.letters> <number>:
     user.run_rpc_command("talon-filetree.expandDirectory", letters, number)
-tree collapse <user.letters>:
+tree collapse <user.letters>:3^
     user.run_rpc_command("talon-filetree.expandDirectory", letters, 0)
 tree move <user.letters> to <user.letters>:
     user.run_rpc_command("talon-filetree.moveFile", letters_1, letters_2)
@@ -33,7 +33,7 @@ tree select <user.letters>:
     user.run_rpc_command("talon-filetree.select", letters)
 tree git:
     user.run_rpc_command("talon-filetree.toggleGitIgnoredFiles")
-tree current:
+tree file:
     user.run_rpc_command("talon-filetree.revealCurrentFile")
 tree hunt <user.letters> [for <user.text>]:
     user.run_rpc_command_and_wait("talon-filetree.findInFolder", letters)
