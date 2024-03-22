@@ -8,3 +8,9 @@ go files:
 
 close files:
     key(cmd-w)
+
+go terminal:
+    user.switcher_focus("terminator")
+
+focus last:
+    key(alt-tab)
