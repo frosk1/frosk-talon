@@ -40,7 +40,8 @@ make dir:
     insert("mkdir ")
 
 open folder:user.vscode("workbench.action.files.openFolder")
-files: user.vscode("workbench.explorer.fileView.focus")
+# files: user.vscode("workbench.explorer.fileView.focus")
+files: user.vscode("workbench.view.extension.filetree")
 debug: user.vscode("workbench.debug.action.focusBreakpointsView")
 
 dock [<user.text>]:
