@@ -42,3 +42,15 @@ bullet minus:
     edit.line_insert_down()
     edit.line_start()
     insert("    - ")
+
+hunt: user.find("")
+hunt (pace | paste):
+    user.find("")
+    sleep(25ms)
+    edit.paste()
+hunt <user.text>: user.find(text)
+
+(pace | paste): edit.paste()
+(pace | paste) enter:
+    edit.paste()
+    key(enter)
