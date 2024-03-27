@@ -34,8 +34,6 @@ shell toggle: user.vscode_and_wait("workbench.action.terminal.toggleTerminal")
 shell scroll up: user.vscode("workbench.action.terminal.scrollUp")
 shell scroll down: user.vscode("workbench.action.terminal.scrollDown")
 shell <number_small>: user.vscode_terminal(number_small)
-make dir:
-    insert("mkdir ")
 
 open folder:user.vscode("workbench.action.files.openFolder")
 # files: user.vscode("workbench.explorer.fileView.focus")

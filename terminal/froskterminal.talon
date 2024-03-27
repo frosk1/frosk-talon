@@ -32,8 +32,11 @@ remote copy: "scp "
 remote copy dear: "scp -r "
 
 remove: "rm "
-remove dear: "rm -r"
+remove dear: "rm -r "
 hist: "history "
 pie: "python "
 vim: "vim "
 exit: "exit "
+make dir: "mkdir "
+
+para <user.letter>: insert("-{user.letter} ")
