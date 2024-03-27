@@ -1,6 +1,8 @@
-tag: terminal
-tag: user.unix_utilities
+tag: user.froskterminal
 -
+tag(): terminal
+tag(): user.git
+tag(): user.unix_utilities
 
 search: user.terminal_rerun_search("")
 picture <number> : key("ctrl-{number}")
@@ -23,7 +25,6 @@ login cloud development: insert("/home/frosk/scripts/kube/login_kubernetes.sh gc
 
 pip install: "pip install "
 pip install requirements: "pip install -r requirements.txt"
-core {user.unix_utility}: "{unix_utility} "
 
 
 remote: "ssh "
