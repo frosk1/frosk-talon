@@ -37,6 +37,6 @@ hist: "history "
 pie: "python "
 vim: "vim "
 exit: "exit "
-make dir: "mkdir "
+make dear: "mkdir "
 
 para <user.letter>: insert("-{user.letter} ")
