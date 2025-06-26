@@ -92,3 +92,11 @@ file delete:
     sleep(150ms)
 file open folder: user.vscode("revealFileInOS")
 file reveal: user.vscode("workbench.files.action.showActiveFileInExplorer")
+
+
+pilot: 
+    user.vscode("workbench.action.toggleAuxiliaryBar")
+    user.vscode("workbench.panel.chat.view.copilot.focus")
+
+pilot off: 
+    user.vscode("workbench.action.toggleAuxiliaryBar")
