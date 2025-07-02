@@ -5,6 +5,9 @@ tag(): user.tabsapp: chrome
 -
 
 settings():
-    insert_wait = 5
+    insert_wait = 10
+
+
+picture <number> : key("ctrl-{number}")    
 
 

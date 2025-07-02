@@ -14,3 +14,8 @@ go terminal:
 
 focus last:
     key(alt-tab)
+
+go chat:
+    user.switcher_focus("Google Chrome")
+    sleep(200ms)
+    key(ctrl-3)
