@@ -9,10 +9,16 @@ go files:
 close files:
     key(cmd-w)
 
-go terminal:
-    user.switcher_focus("terminator")
+go term:
+    user.switcher_focus("Terminator")
 
-focus last:
+go code:
+    user.switcher_focus("Code")
+
+go web:
+    user.switcher_focus("Google Chrome")
+
+go last:
     key(alt-tab)
 
 go chat:
