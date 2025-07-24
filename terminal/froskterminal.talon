@@ -5,7 +5,7 @@ tag(): user.git
 tag(): user.unix_utilities
 
 search: user.terminal_rerun_search("")
-picture <number> : key("ctrl-{number}")
+pick <number> : key("ctrl-{number}")
 
 katie develop: 
     insert("cd ~/DEV/")

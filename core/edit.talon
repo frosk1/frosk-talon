@@ -3,8 +3,8 @@ out : key(escape)
 wipe : key(delete)
 clean : key(backspace)
 
-picture <number>: user.tab_jump(number)
-picture final: user.tab_final()
+pick <number>: user.tab_jump(number)
+pick final: user.tab_final()
 go line start | pop: edit.line_start()
 go line end | push: edit.line_end()
 

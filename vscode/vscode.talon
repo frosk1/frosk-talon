@@ -49,6 +49,11 @@ dock (pace | paste):
     sleep(50ms)
     edit.paste()
 
+recent [<user.text>]:
+    user.vscode("workbench.action.openRecent")
+    sleep(50ms)
+    insert(text or "")
+    
 dock search: user.vscode("workbench.view.search")
 file search: user.vscode("workbench.action.findInFiles")
 
@@ -56,7 +61,7 @@ file search: user.vscode("workbench.action.findInFiles")
 source: user.vscode("workbench.view.scm")
 source graph: user.vscode("git-graph.view")
 editor: user.vscode("workbench.action.focusActiveEditorGroup")
-picture <number> : key("ctrl-{number}")
+pick <number> : key("ctrl-{number}")
 last: user.vscode("workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup")
 declare: user.vscode("editor.action.revealDefinition")
 back: user.vscode("workbench.action.navigateBack")

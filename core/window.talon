@@ -16,7 +16,7 @@ go code:
     user.switcher_focus("Code")
 
 go web:
-    user.switcher_focus("Google Chrome")
+    user.switcher_focus("chrome")
 
 go last:
     key(alt-tab)

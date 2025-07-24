@@ -8,6 +8,6 @@ settings():
     insert_wait = 20
 
 
-picture <number> : key("ctrl-{number}")    
+pick <number> : key("ctrl-{number}")    
 
 
