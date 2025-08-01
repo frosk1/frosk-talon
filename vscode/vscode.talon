@@ -56,6 +56,7 @@ recent [<user.text>]:
     
 dock search: user.vscode("workbench.view.search")
 file search: user.vscode("workbench.action.findInFiles")
+action: user.vscode("workbench.action.showCommands")
 
 
 source: user.vscode("workbench.view.scm")
