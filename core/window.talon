@@ -3,6 +3,26 @@ go mail:
     sleep(200ms)
     key(ctrl-1)
 
+go teams:
+    user.switcher_focus("Google Chrome")
+    sleep(200ms)
+    key(ctrl-2)
+
+open get:
+    key(ctrl-t)
+    sleep(200ms)
+    insert("git")
+    sleep(200ms)
+    key(enter)
+
+open confluence:
+    key(ctrl-t)
+    sleep(200ms)
+    insert("confluence")
+    sleep(200ms)
+    key(enter)
+    
+
 go files:
     key(super-8)
 

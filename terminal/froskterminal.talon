@@ -23,6 +23,7 @@ harp top:
 login cloud produciton: insert("/home/frosk/scripts/kube/login_kubernetes.sh gcp prod \n")
 login cloud development: insert("/home/frosk/scripts/kube/login_kubernetes.sh gcp dev \n")
 login ago: insert("/home/jan/DEV/scripts/getkubetoken.sh \n")
+login some: insert("/home/jan/Tools/osum-plus_v1.1.4_linux-amd64 --url https://osum-plus.ionos.org/sca15/usercert \n")
 
 pip install: "pip install "
 pip install requirements: "pip install -r requirements.txt"
@@ -50,3 +51,4 @@ clone develop:
 
 remote QA: "ssh jwessling@llm-qa-md-bs01.dso.org.mam.dev\n"
 remote live: "ssh jwessling@llm-live-head-bap01.dso.org.mam.dev\n"
+remote data: "ssh dgx\n"
